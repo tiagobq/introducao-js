@@ -12,12 +12,32 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-    <script src="./js/segregacao.js"></script>
+        
+
+    <!--<script src="./js/segregacao.js"></script> 
+    <script src="./js/classes.js"></script>
+    
+    <script src="./js/operadores.js"></script>
+    <script src="./js/repeticoes.js"></script> -->
+    <script src="./js/api.js"></script>
+    <script src="https://code.jquery.com/jquery.3.6.0.min.js"></script>
+    
+    
 </head>
 
 <body>
-    <h2>Bem vindo a introdução a JS</h2>
-    <button type="button" onclick="mensagem2()">Mostrar mensagem</button> </button>
+    <div class="p-3 text-primary-emphasis bg-primary-subtle border-primary-subtle rounded-3">
+        <h2 id="titulo">Bem vindo a introdução a JS</h2>
+    </div>
+    <div class="mt-2 p-3 text-primary-emphasis bg-primary-subtle border-primary-subtle rounded-3">
+        <h3 id="paragrafo">Novo elemento</h3>
+    </div> 
+    <input id="input" type="text" placeholder="digite um texto"/>  
+    <button class="mt-2" type="button" onclick="obterGato()">Mostrar mensagem</button>
+    <div id="gatos"></div> 
+    <script src="js/dom.js"></script>
+    
 </body>
 
 </html>
+
